@@ -32,3 +32,16 @@ p{
   margin: 3px 0;
   font-size: 17px;
 }
+
+#msg {
+  font-size: large;
+  display: inline-block;
+  width: 200px;
+}
+
+#time {
+  font-size: smaller;
+  margin-left: 20px;
+  display: inline-block;
+  width: 200px;
+}
