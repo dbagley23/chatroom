@@ -17,11 +17,13 @@ app.service('parseService', function($http){
   
   //postData method here
   this.postData = function(obj){
+      debugger;
       $http({
       method: 'POST',
       url: 'https://api.parse.com/1/classes/chat',
       data: obj
     }).then(function(){
+      debugger;
       return obj});
   };
   
